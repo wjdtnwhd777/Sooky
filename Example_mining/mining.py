@@ -4,7 +4,7 @@ import codecs
 def mining():
     msg = 'Attack at 9PM!'
     nonce = 0
-    difficulty = 5
+    difficulty = 6
 
     while True:
         target = '%s%d' %(msg, nonce)
